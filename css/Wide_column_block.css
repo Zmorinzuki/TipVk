@@ -1,0 +1,851 @@
+.wide_column{
+    display: block;
+    float: right;
+    width: 680px;
+    padding: 0px;
+    background-color: white;
+    height: auto;
+    font-size: 12px;
+}
+.dottom_line{
+    display: block;
+    float: left;
+    width: 670px;
+    height: auto;
+    border-top:1px solid #cecece;
+}
+/*----------------------------------------------------------------
+заглавный блок
+------------------------------------------------------------------*/
+#nami_slog {
+    display: block;
+    float: left;
+    width: 680px;
+    height: auto;
+    margin-left: 5px;
+
+}
+#zagl_top{
+    font-size: 15px;
+    font-weight: 800;
+    color: #34618a;
+}
+#slog:hover{
+    text-decoration: underline;
+}
+/*----------------------------------------------------------------
+блок обомне
+------------------------------------------------------------------*/
+#block_obomne{
+    display: block;
+    float: left;
+    width: 670px;
+    height: 120px;
+    background-color: white;
+    padding: 10px 0px;
+}
+.stroc_line{
+    display: block;
+    float: left;
+    width: 600px;
+    height: 20px;
+    padding: 4px;
+}
+.nemi_stroc{
+    display: block;
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.znah_stroc{
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+}
+.znah_stroc:hover{
+    text-decoration: underline;
+}
+#block_podrobn_inf{
+    display: block;
+    float: left;
+    width: 670px;
+    height: 40px;
+    background-color: #fafafa;
+}
+#center{
+    display: block;
+    float: left;
+    width: 670px;
+    height: auto;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    margin-top:11px ;
+}
+#block_podrobn_inf:hover{
+    background-color: #d3d3d3;
+}
+/*---------------------------------------------------------------
+ФотографииИиИИИИи
+-----------------------------------------------------------------*/
+#pfoto{
+    display: block;
+    float: left;
+    width: 670px;
+    height: 165px;
+    background-color: #ececec;
+    margin: 10px 0px;
+}
+.name_st_cl{
+    display: block;
+    float: left;
+    width: 670px;
+    height: 30px;
+    background-color: #c6c9df;
+    font-size: 13px;
+    font-weight: 600;
+}
+.slog_left{
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 7px;
+}
+.slog_right{
+    display: block;
+    float: right;
+    width: auto;
+    height: auto;
+    margin: 7px;
+    color: #4e93d2;
+}
+.slog_right:hover{
+    color: #4282b6;
+    text-decoration: underline;
+}
+.photo_s_al{
+    display: block;
+    float: left;
+    width: 128px;
+    height: 128px;
+    background-color: #000000;
+    margin: 3px;
+}
+#photo_s_al_1{
+    display: block;
+    float: left;
+    width: 128px;
+    height: 128px;
+    background: url("../Photos/UzerPhoto/Photo_s_al/photo-s-al-1.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+#photo_s_al_2{
+    display: block;
+    float: left;
+    width: 128px;
+    height: 128px;
+    background: url("../Photos/UzerPhoto/Photo_s_al/photo-s-al-2.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+#photo_s_al_3{
+    display: block;
+    float: left;
+    width: 128px;
+    height: 128px;
+    background: url("../Photos/UzerPhoto/Photo_s_al/photo-s-al-3.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+#photo_s_al_4{
+    display: block;
+    float: left;
+    width: 128px;
+    height: 128px;
+    background: url("../Photos/UzerPhoto/Photo_s_al/photo-s-al-4.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+#photo_s_al_5{
+    display: block;
+    float: left;
+    width: 128px;
+    height: 128px;
+    background: url("../Photos/UzerPhoto/Photo_s_al/photo-s-al-5.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+/*-----------------------------------------------------------------------------------------
+Стена и коменты
+-------------------------------------------------------------------------------------------*/
+#stena{
+    display: block;
+    float: left;
+    width: 670px;
+    height: auto;
+}
+#soz_zapis{
+    display: block;
+    float: left;
+    width: 670px;
+    height: 70px;
+    background-color: #e6dee8;
+}
+.vod_stroc{
+    display: block;
+    float: left;
+    width: 650px;
+    height: 20px;
+    margin: 7px 8px;
+}
+.new_zapesi{
+    color: #c3c3c3;
+    font-weight: 600;
+}
+/*--------------------------------------------------------------------------------------------
+проста стена
+----------------------------------------------------------------------------------------------*/
+.post{
+    display: block;
+    float: left;
+    width: 670px;
+    height: auto;
+    background-color: white;
+    margin: 10px 0px;
+}
+.avatar_post{
+    display: block;
+    float: left;
+    width: 80px;
+    height: 180px;
+    margin-right: 5px;
+    background-color: white;
+}
+.asn_post{
+    display: block;
+    float: right;
+    width: 585px;
+    height: auto;
+    background-color: white;
+    padding: 0;
+}
+.neme_glav_post{
+    display: block;
+    float: right;
+    width: 585px;
+    height: 25px;
+    color: #34618a;
+    font-weight: 700;
+}
+.vn_gl_nm_ps{
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 4px 10px;
+}
+.vn_gl_nm_ps:hover{
+    text-decoration: underline;
+}
+.neme_post{
+    display: block;
+    float: right;
+    width: 585px;
+    height: 55px;
+    background-color: white;
+}
+.avatar_st_post{
+    display: block;
+    float: left;
+    width: 55px;
+    height: 55px;
+    background-color: white;
+
+}
+.name_st_post{
+    display: block;
+    float: left;
+    width: 530px;
+    height: 25px;
+    background-color: white;
+    margin-bottom: 1px;
+    font-weight: 700;
+}
+.name_afect{
+    display: block;
+    float: left;
+    width:auto;
+    height: auto;
+    margin: 5px;
+}
+.name_afect:hover{
+    text-decoration: underline;
+}
+.icon_strelc{
+    display: block;
+    float: left;
+    width: 11px;
+    height: 11px;
+    margin-top: 4px;
+    background: url("../Photos/UzerPhoto/icon-strelca.gif")no-repeat;
+}
+.data_post{
+    color: #aaaaaa;
+    font-size: 11px;
+}
+
+.vr_st_post{
+    display: block;
+    float: left;
+    width: 530px;
+    height: 25px;
+    background-color: white;
+}
+.soder_post{
+    display: block;
+    float: left;
+    width: 585px;
+    height: auto;
+}
+.podval_post{
+    display: block;
+    float: left;
+    width: 585px;
+    height: 25px;
+    background-color: white;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+.pod_str{
+    display: block;
+    float: left;
+    width: 200px;
+    height: 11px;
+    margin: 7px;
+    background-color: white;
+}
+.taim_post{
+    color: #aaaaaa;
+}
+.taim_post:hover{
+    text-decoration: underline;
+}
+.coment_post:hover{
+    text-decoration: underline;
+}
+.delica_post{
+    display: block;
+    float: right;
+    width: 30px;
+    height: 25px;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+.delica_post:hover{
+    background-color: #e6dee8;
+}
+.avatar_delica{
+    display: block;
+    float: left;
+    width: 14px;
+    height: 16px;
+    margin: 5px 7px;
+    background: url("../Photos/UzerPhoto/like.gif") 0px -27px no-repeat;
+    background-size: cover;
+}
+.i_li_block{
+    display: block;
+    float: right;
+    width: auto;
+    height: 25px;
+    color: #aaaaaa;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+.i_li_block:hover{
+    color: #3c74a3;
+    background-color: #e6dee8;
+}
+.nm_like-2{
+    display: block;
+    float: right;
+    width: auto;
+    height: 14px;
+    margin: 5px 0px;
+
+}
+.i_like{
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 6px 0px 6px 6px;
+}
+.icon_i_like{
+    display: block;
+    float: right;
+    width: 11px;
+    height: 9px;
+    margin: 8px 6px 2px 2px;
+    background: url("../Photos/UzerPhoto/like.gif") 0px 0px no-repeat;
+}
+/*----------------------------------------------------------------------------
+Содержимое постов
+------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+содержимое 1-го поста
+-------------------------------------------------------------------------------*/
+#avatar_post_1{
+    display: block;
+    float: left;
+    width: 80px;
+    height: 80px;
+    background: url("../Photos/UzerPhoto/My_photo.jpg") no-repeat;
+    background-size: cover;
+}
+#avatar_st_post1{
+    display: block;
+    float: left;
+    width: 55px;
+    height: 55px;
+    background: url("../Photos/UzerPhoto/icon_post/icon-post-1.jpg");
+    background-size: cover;
+}
+#post_1_sod_1{
+    display: block;
+    float: left;
+    width: 189px;
+    height: 189px;
+    margin: 3px 3px 3px 0px ;
+    border: 1px solid black;
+    background: url("../Photos/UzerPhoto/Soderg_post/post_1_sod_1.jpg")no-repeat;
+    background-size: cover;
+}
+#post_1_sod_2{
+    display: block;
+    float: left;
+    width: 189px;
+    height: 189px;
+    margin: 3px;
+    border: 1px solid black;
+    background: url("../Photos/UzerPhoto/Soderg_post/post_1_sod_2.jpg")no-repeat;
+    background-size: cover;
+}
+#post_1_sod_3{
+    display: block;
+    float: left;
+    width: 189px;
+    height: 189px;
+    margin: 3px 0px 3px 3px;
+    border: 1px solid black;
+    background: url("../Photos/UzerPhoto/Soderg_post/post_1_sod_3.jpg")no-repeat;
+    background-size: cover;
+}
+#post_1_sod_4{
+     display: block;
+     float: left;
+     width: 139px;
+     height: 140px;
+     margin: 3px 3px 3px 0px;
+    border: 1px solid black;
+     background: url("../Photos/UzerPhoto/Soderg_post/post_1_sod_4.jpg")no-repeat;
+     background-size: cover;
+ }
+#post_1_sod_5{
+    display: block;
+    float: left;
+    width: 140px;
+    height: 140px;
+    margin: 3px;
+    border: 1px solid black;
+    background: url("../Photos/UzerPhoto/Soderg_post/post_1_sod_5.jpg")no-repeat;
+    background-size: cover;
+}
+#post_1_sod_6{
+    display: block;
+    float: left;
+    width: 140px;
+    height: 140px;
+    margin: 3px;
+    border: 1px solid black;
+    background: url("../Photos/UzerPhoto/Soderg_post/post_1_sod_6.jpg")no-repeat;
+    background-size: cover;
+}
+#post_1_sod_7{
+    display: block;
+    float: left;
+    width: 140px;
+    height: 140px;
+    margin: 3px 0px 3px 3px;
+    border: 1px solid black;
+    background: url("../Photos/UzerPhoto/Soderg_post/post_1_sod_7.jpg")no-repeat;
+    background-size: cover;
+}
+/*---------------------------------------------------------------------------
+содержимое 2-го поста
+-----------------------------------------------------------------------------*/
+#avatar_post_2{
+    display: block;
+    float: left;
+    width: 80px;
+    height: 80px;
+    background: url("../Photos/UzerPhoto/My_photo.jpg") no-repeat;
+    background-size: cover;
+}
+.stroca_p-2{
+    white-space: pre;
+}
+#avatar_st_post2{
+    display: block;
+    float: left;
+    width: 55px;
+    height: 55px;
+    background: url("../Photos/UzerPhoto/icon_post/icon-post-2.jpg");
+    background-size: cover;
+}
+#post_2_sod{
+    display: block;
+    float: left;
+    width: 580px;
+    height:400px;
+    margin: 5px 0px;
+    background: url("../Photos/UzerPhoto/Soderg_post/post_2_sod.jpg");
+    background-size: cover;
+}
+.song_block{
+    display: block;
+    float: left;
+    width: 580px;
+    height: 25px;
+    margin: 5px 0px;
+}
+.song_block:hover{
+    background-color: #e1e9f4
+}
+.song_play{
+    display: block;
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin: 4px;
+    background: url("../Photos/UzerPhoto/audio/playpause.gif") no-repeat;
+    background-size: cover;
+}
+.song_play:active{
+    display: block;
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin: 4px;
+    background: url("../Photos/UzerPhoto/audio/playpause.gif") 0px -18px no-repeat;
+    background-size: cover;
+}
+.naime_song{
+    display: block;
+    float: left;
+    width: 500px;
+    height: 18px;
+    margin:5px;
+    font-size: 11px;
+}
+.grupp:hover{
+    color: #487dd2;
+    text-decoration: underline;
+}
+.naime_s{
+    color: #aaaaaa;
+}
+.taim_song{
+    display: block;
+    float: right;
+    width: 18px;
+    height: 11px;
+    margin: 4px 10px;
+}
+
+/*---------------------------------------------------------------------------
+содержимое 3-го поста
+-----------------------------------------------------------------------------*/
+#avatar_post_3{
+    display: block;
+    float: left;
+    width: 80px;
+    height: 80px;
+    background: url("../Photos/UzerPhoto/My_photo.jpg") no-repeat;
+    background-size: cover;
+}
+#avatar_st_post3{
+    display: block;
+    float: left;
+    width: 55px;
+    height: 55px;
+    background: url("../Photos/UzerPhoto/icon_post/icon-post-3.jpg");
+    background-size: cover;
+}
+.stroca_p-3{
+    white-space: pre;
+    font-family: Bicubik;
+}
+.pk_pol{
+    color: #407fb4;
+}
+.pk_pol:hover{
+    color: #254663;
+    text-decoration: underline;
+}
+#block_vidio_post{
+    display: block;
+    float: left;
+    width: 580px;
+    height: 320px;
+    background: url("../Photos/UzerPhoto/Soderg_post/post_3_sob.jpg") no-repeat;
+    background-size: cover;
+}
+#centr_pley{
+    display: block;
+    float: left;
+    width: 50px;
+    height: 40px;
+    margin: 125px 265px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 0.5px solid #000000;
+    border-radius:5px ;
+}
+#centr_pley:hover{
+    background: rgba(0, 0, 0, 0.5);
+}
+#icon_play{
+    display: block;
+    float: left;
+    width: 18px;
+    height: 22px;
+    margin: 9px 19px;
+    background: url("../Photos/UzerPhoto/Video/video_play.png");
+    background-size: cover;
+}
+#time_vidio{
+    display: block;
+    float: right;
+    width: 45px;
+    height: 16px;
+    font-size:11px;
+    margin: 0px 10px;
+    padding: 2px 4px;
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+#txt_block{
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+
+}
+#text_vidio{
+    display: block;
+    float: left;
+    width: 220px;
+    height: 40px;
+}
+#text_vidio:hover{
+    text-decoration: underline;
+}
+#mono_icon{
+    display: block;
+    float: left;
+    width: 12px;
+    height: 12px;
+    background: url("../Photos/UzerPhoto/mono_iconset.png") 0px -73px no-repeat;
+}
+#cisl_prosm{
+    display: block;
+    float: right;
+    margin: 5px;
+    color: #5d5d5d;
+    font-weight: bold;
+}
+
+/*---------------------------------------------------------------------------
+содержимое 4-го поста
+-----------------------------------------------------------------------------*/
+#avatar_post_4{
+    display: block;
+    float: left;
+    width: 80px;
+    height: 80px;
+    background: url("../Photos/UzerPhoto/icon_post/icon-post-4.jpg") no-repeat;
+    background-size: cover;
+}
+#post_4_sob{
+    display: block;
+    float: left;
+    width: 580px;
+    height: 320px;
+    margin: 5px 0px;
+    background: url("../Photos/UzerPhoto/Soderg_post/post_4_sob.jpg") no-repeat;
+    background-size: cover;
+}
+#aftor_post_line{
+    display: block;
+    float: left;
+    width: 120px;
+    height: 18px;
+    padding: 2px 3px;
+}
+#after_post{
+    display: block;
+    float: left;
+    width: 12px;
+    height: 12px;
+    background: url("../Photos/UzerPhoto/mono_iconset.png") no-repeat;
+}
+#block_koments{
+    display: block;
+    float: left;
+    width:580px;
+    height: auto;
+
+}
+#ws_coment{
+    display: block;
+    float: left;
+    width: 580px;
+    height: 30px;
+    text-align: center;
+    background-color: #e5e5e5;
+}
+#namber_coments{
+    display: block;
+    width: 580px;
+    height: 12px;
+    font-size: 12px;
+    margin: 7px 0px;
+    color: #808b8e;
+}
+#namber_coments:hover{
+    color: #3e4446;
+}
+.line{
+    display: block;
+    float: left;
+    width: 580px;
+    height: auto;
+    border:  0.1px solid #cbcbcb;
+}
+.coment_block{
+    display: block;
+    float: left;
+    width: 580px;
+    height: 60px;
+    margin: 10px 0px;
+}
+#coment_avatar_1{
+    display: block;
+    float: left;
+    width: 60px;
+    height: 60px;
+    background: url("../Photos/UzerPhoto/avatar_coment/avatar_coment_1.jpg") no-repeat;
+    background-size: cover;
+
+}
+#coment_avatar_2{
+    display: block;
+    float: left;
+    width: 60px;
+    height: 60px;
+    background: url("../Photos/UzerPhoto/avatar_coment/avatar_coment_2.jpg") no-repeat;
+    background-size: cover;
+
+}
+#coment_avatar_3{
+    display: block;
+    float: left;
+    width: 60px;
+    height: 60px;
+    background: url("../Photos/UzerPhoto/avatar_coment/avatar_coment_3.jpg") no-repeat;
+    background-size: cover;
+}
+.name_coment{
+    display: block;
+    float: left;
+    width: 500px;
+    height: 12px;
+    margin: 0px 10px;
+    color: #407fb4;
+}
+.name_coment:hover{
+    text-decoration: underline;
+}
+.sam_coment{
+    display: block;
+    float: left;
+    width: 500px;
+    height: 12px;
+    margin: 10px;
+}
+.underl:hover{
+    text-decoration: underline;
+}
+.smail{
+    display: block;
+    float: right;
+    width: 14px;
+    height: 14px;
+    margin: 0px 422px 0px 0px;
+    background: url("../Photos/UzerPhoto/smail.png") no-repeat;
+    background-size: cover;
+}
+.nz_block_coment{
+    display: block;
+    float: left;
+    width: 500px;
+    height: 20px;
+    margin: 0px 10px;
+}
+.taim_coment{
+    display: block;
+    float: left;
+    width: auto;
+    height: 12px;
+}
+.otp_coment{
+    display: block;
+    float: left;
+    width: auto;
+    height: 12px;
+    color: #407fb4;
+}
+.otp_coment:hover{
+    text-decoration: underline;
+}
+.im_like{
+    display: block;
+    float: right;
+    width: auto;
+    height: 12px;
+    color: white;
+}
+.im_like:hover{
+    color: #407fb4;
+}
+.icon_like{
+    display: block;
+    float: right;
+    width: 12px;
+    height: 11px;
+    margin: 2px 3px;
+    background: url("../Photos/UzerPhoto/like.gif") 0px 0px no-repeat;
+    background-size: cover;
+}
+.nm_like{
+    display: block;
+    float: right;
+    width: auto;
+    height: 12px;
+}
+#soz_com_block{
+    display: block;
+    float: left;
+    width: 580px;
+    height: 40px;
+    background-color: #e5e5e5;
+}

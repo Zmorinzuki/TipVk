@@ -1,0 +1,197 @@
+.na_profile{
+    display: block;
+    float: right;
+    width: 890px;
+    padding: 4px;
+    background-color: #f4f4f4;
+    border-right: 1px solid #d9d6d7;
+    border-left: 1px solid #d9d6d7;
+}
+#cent_block{
+    display: block;
+    background-color: #d9d6d7;
+    height: 30px;
+}
+#sost_block{
+    font-size: 11px;
+    font-weight: 600;
+}
+#sost_nemi{
+    display: block;
+    float: left;
+    width: auto;
+    height: 12px;
+    margin: 7px 7px;
+    color: #868a90;
+}
+#sost_online{
+    display: block;
+    float: right;
+    width: auto;
+    height: 12px;
+    margin: 7px 7px;
+    color: #aeb3bb;
+}
+/*----------------------------------------------------------------------------------------------------------------------
+щапочка
+------------------------------------------------------------------------------------------------------------------------*/
+#cap{
+    display: block;
+    width: 1070px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #54769B;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#vc{
+    display: block;
+    float: left;
+    width: 120px;
+    height: 22px;
+    margin: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+#vc:active{
+    font-size: 14px;
+}
+#vc_B{
+    display: block;
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin-right: 3px;
+    background-color: white;
+    border-radius: 5px;
+    color: #54769B;
+}
+#B{
+    display: block;
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 1px 4px;
+}
+#poisk{
+    display: block;
+    float: left;
+    width: 140px;
+    height: 15px;
+    margin: 8px 0px;
+}
+#poisc_icon{
+    display: block;
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin: 2px;
+    background: white url("../Photos/UzerPhoto/search_icon_d.gif") 2px 4px no-repeat ;
+}
+.button{
+    display: block;
+    float: right;
+    width: auto;
+    height: 40px;
+    font-size: 12px;
+    color: white;
+    background-color: #54769B;
+}
+.button:hover{
+    background-color: #4b6988;
+}
+.button:active{
+    color: #e8f6ff;
+    font-size: 14px;
+}
+.v_centr{
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 10px 10px;
+}
+#block_icon{
+    display: block;
+    float: right;
+    width: 25px;
+    height: 25px;
+    margin:-4px 0px 0px 5px;
+    background-color: #2b5274;
+    border-radius: 5px;
+}
+#icon_mesic{
+    display: block;
+    float: left;
+    width: 8px;
+    height: 12px;
+    margin: 7px 9px;
+    background: url("../Photos/UzerPhoto/Video/video_play.png") no-repeat;
+    background-size: cover;
+}
+.left_ost{
+    margin-right: 10px;
+}
+/*----------------------------------------------------------------------------------
+подвал
+------------------------------------------------------------------------------------*/
+#podval{
+    display: block;
+    float: right;
+    width: 1100px;
+    height: 60px;
+}
+#centr_pod{
+    display: block;
+    width: 600px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    text-align: center;
+    font-size: 12px;
+    color: #54769B;
+}
+#verh_strok{
+    display: block;
+    width:600px;
+    height: 16px;
+    margin: 10px 0px;
+}
+#centr_strok{
+    display: block;
+    width: 600px;
+    height: 12px;
+    color: black;
+}
+#russha{
+    margin: 0px 3px;
+    color: #54769B;
+}
+#russha:hover{
+    text-decoration: underline;
+}
+#niz_strok{
+    display: block;
+    width: 600px;
+    height: 11px;
+    font-size: 10px;
+    color: #75a0cb;
+    margin: 5px 0px;
+}
+.ctaka{
+    display: block;
+    float: left;
+    width: auto;
+    height: 16px;
+    padding: 2px 5px;
+}
+.ctaka:hover{
+    background-color: #dcdcdc;
+}
+.left_vr{
+    margin-left: 110px;
+}
