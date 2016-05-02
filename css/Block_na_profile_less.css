@@ -41,7 +41,7 @@
   height: 40px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #54769B;
+  background-color: #54769b;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -66,7 +66,7 @@
   margin-right: 3px;
   background-color: white;
   border-radius: 5px;
-  color: #54769B;
+  color: #54769b;
 }
 #B {
   display: block;
@@ -98,13 +98,13 @@
   height: 40px;
   font-size: 12px;
   color: white;
-  background-color: #54769B;
+  background-color: #54769b;
 }
 .button:hover {
   background-color: #4b6988;
 }
 .button:active {
-  color: #e8f6ff;
+  color: #aeb3bb;
   font-size: 14px;
 }
 .v_centr {
@@ -153,7 +153,7 @@
   background-color: white;
   text-align: center;
   font-size: 12px;
-  color: #54769B;
+  color: #54769b;
 }
 #verh_strok {
   display: block;
@@ -169,7 +169,7 @@
 }
 #russha {
   margin: 0px 3px;
-  color: #54769B;
+  color: #54769b;
 }
 #russha:hover {
   text-decoration: underline;
@@ -179,7 +179,7 @@
   width: 600px;
   height: 11px;
   font-size: 10px;
-  color: #75a0cb;
+  color: #4b6988;
   margin: 5px 0px;
 }
 .ctaka {
@@ -190,7 +190,7 @@
   padding: 2px 5px;
 }
 .ctaka:hover {
-  background-color: #dcdcdc;
+  background-color: #aeb3bb;
 }
 .left_vr {
   margin-left: 110px;

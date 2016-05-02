@@ -1,0 +1,609 @@
+.narrow_column {
+  float: left;
+  width: 200px;
+  padding: 10px 0px 5px 0px;
+  background-color: white;
+}
+.left_lien {
+  border-right: 1px solid #d9d6d7 ;
+}
+/*-------------------------------
+блок отправить
+---------------------------------*/
+#mi_fd_block {
+  display: block;
+  width: 190px;
+  height: 83px;
+  background-color: #ededed;
+  text-align: center;
+}
+#block_otp {
+  display: block;
+  float: left;
+  width: 180px;
+  height: 30px;
+  margin: 5px;
+  background-color: #54769b;
+  color: white;
+  border-radius: 4px;
+  font-weight: 700;
+}
+#block_otp:hover {
+  background-color: #2b5274;
+}
+#Block_al_dr {
+  display: block;
+  float: left;
+  width: 180px;
+  height: 30px;
+  margin: 5px;
+  color: #5d5d5d;
+  border-radius: 4px;
+  font-weight: 500;
+}
+#Block_al_dr:hover {
+  background-color: #b7b7b7;
+}
+.knopka_otp {
+  display: block;
+  padding: 8px;
+}
+/*------------------------------------------------
+блок с тип подписчики и вотографии с александром
+--------------------------------------------------*/
+#block_foto_i_td {
+  display: block;
+  width: 190px;
+  height: 50px;
+  background-color: white;
+  font-size: 9px;
+  margin: 5px 0px;
+}
+.ctr_fot_pd {
+  display: block;
+  float: left;
+  width: 184px;
+  height: 20px;
+  margin: 1px;
+  background-color: white;
+  border-radius: 3px;
+}
+.ctr_fot_pd:hover {
+  background-color: #c8cdd5;
+}
+.knopka_fo_pd {
+  display: block;
+  float: left;
+  width: 150px;
+  height: 10px;
+  margin: 5px 2px;
+}
+.namb_ft_pd {
+  display: block;
+  float: right;
+  width: 10px;
+  height: 10px;
+  margin: 5px 0px;
+  text-align: right;
+}
+#icon_1 {
+  display: block;
+  float: right;
+  width: 13px;
+  height: 10px;
+  margin: 5px 3px;
+  background: url("../Photos/UzerPhoto/profile_icons.png") 0px 0px no-repeat;
+}
+#icon_2 {
+  display: block;
+  float: right;
+  width: 13px;
+  height: 10px;
+  margin: 5px 3px;
+  background: url("../Photos/UzerPhoto/profile_icons.png") 0px -24px no-repeat;
+}
+/*----------------------------------------------------------*/
+.nar_bar {
+  margin: 0px 5px ;
+}
+.dis_block {
+  display: block;
+  padding: 1px;
+}
+.nar_bar_txt {
+  padding: 2px;
+  float: left;
+}
+.arr_photos {
+  float: right;
+  padding: 2px;
+}
+.namber_text {
+  margin: 2px;
+}
+#ass_photos {
+  float: right;
+  width: 13px;
+  height: 10px;
+  background: #ffffff url("../Photos/UzerPhoto/profile_icons.png") no-repeat 0px 0px;
+}
+#ass_pod {
+  float: right;
+  width: 13px;
+  height: 10px;
+  background: #ffffff url("../Photos/UzerPhoto/profile_icons.png") no-repeat 0px -23px;
+}
+#pod_al {
+  margin-right: 20px ;
+}
+.normal_text {
+  display: block;
+  padding: 3px 5px;
+  width: 180px;
+  font-weight: 800;
+}
+.normal_text_centr {
+  display: block;
+  padding: 3px 35px;
+  width: 120px;
+}
+.normal_text_v1 {
+  display: block;
+  padding: 3px 5px;
+  width: 180px;
+  font-weight: 300;
+}
+.namber_text_right {
+  float: right;
+  padding-right: 2px;
+}
+.nz_block {
+  display: block;
+  background-color: #c8cdd5;
+  width: 186px;
+  height: 22px;
+}
+/*----------------------------------------------------------------------------------
+блок с подарками
+------------------------------------------------------------------------------------*/
+#gift_pr_block {
+  display: block;
+  padding: 2px;
+}
+.prezn_block {
+  display: block;
+  background-color: #b2bddd;
+  width: 186px;
+  height: 20px;
+}
+#prezn_block_otp {
+  display: block;
+  background-color: #b2bddd;
+  width: 186px;
+  height: 20px;
+}
+#prezn_block_otp:hover {
+  background-color: #d1dcf4;
+}
+#prezn_gift {
+  float: right;
+  width: 13px;
+  height: 10px;
+  background: url("../Photos/UzerPhoto/profile_icons.png") no-repeat 0px -34px;
+}
+#prezn_gift_2 {
+  float: left;
+  width: 13px;
+  height: 10px;
+  background: url("../Photos/UzerPhoto/profile_icons.png") no-repeat 0px -34px;
+}
+#block_prezn {
+  display: block;
+  width: 184px;
+  height: 61px;
+  padding: 10px 0px;
+}
+.block_prezn_photo {
+  display: block;
+  float: left;
+  width: 60px;
+  height: 60px;
+}
+#ass_prezn_photo_1 {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: url("../Photos/UzerPhoto/present_1.png") no-repeat;
+  background-size: contain;
+}
+#ass_prezn_photo_2 {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: url("../Photos/UzerPhoto/present_1.png") no-repeat;
+  background-size: contain;
+}
+#ass_prezn_photo_3 {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: url("../Photos/UzerPhoto/present_2.png") no-repeat;
+  background-size: contain;
+}
+/*---------------------------------------------------------------------------
+блок с друзьяшками и фотками + видио +аудио
+-----------------------------------------------------------------------------*/
+#frend_block {
+  display: block;
+  padding: 2px;
+}
+#fr_ob_block {
+  display: block;
+  width: 184px;
+  height: 91px;
+}
+#news {
+  float: right;
+  padding-right: 10px;
+  color: #4b6988;
+}
+#news:hover {
+  text-decoration: underline;
+  color: #2b5274;
+}
+#frend_al {
+  display: block;
+  width: 184px;
+  height: 180px;
+}
+#fo_albom {
+  display: block;
+  width: 184px;
+  height: 251px;
+}
+#interes_stranici {
+  display: block;
+  width: 184px;
+  height: 390px;
+}
+#vid_block {
+  display: block;
+  padding: 2px;
+}
+#vidio_zapis {
+  display: block;
+  width: 185px;
+  height: 350px;
+}
+#Audio_zapis {
+  display: block;
+  width: 185px;
+  height: 150px;
+}
+/*--------------------------------------------------------
+пораметры
+----------------------------------------------------------*/
+.frend_icon {
+  display: block;
+  float: left;
+  width: 60px;
+  height: 90px;
+}
+.naime_portren {
+  display: block;
+  width: 60px;
+  height: 30px;
+}
+.neme_text {
+  display: block;
+  text-align: center;
+  font-size: 9px;
+  font-weight: 600;
+  width: 60px;
+  height: 20px;
+}
+.neme_text:hover {
+  text-decoration: underline;
+}
+.frend_wd:hover {
+  background-color: #c8cdd5;
+}
+.albom_block {
+  display: block;
+  width: 170px;
+  height: 113px;
+  float: left;
+  margin: 6px;
+}
+.nz_alb_block {
+  display: block;
+  width: 170px;
+  height: 23px;
+  color: white;
+  background: rgba(179, 179, 179, 0.3);
+  margin-top: 91px;
+}
+.nz_alb_block:hover {
+  background: rgba(179, 179, 179, 0.7);
+}
+.namb_foto {
+  display: block;
+  float: right;
+  padding-right: 25px;
+}
+.foto_icon {
+  display: block;
+  float: right;
+  width: 13px;
+  height: 10px;
+  background: url("../Photos/UzerPhoto/profile_icons.png") no-repeat 0px 0px;
+}
+.block_news {
+  display: block;
+  float: left;
+  width: 178px;
+  height: 60px;
+  margin: 5px;
+}
+.obtic {
+  display: block;
+  float: left;
+  width: 115px;
+  height: 20px;
+}
+.obtic:hover {
+  text-decoration: underline;
+}
+.slogan {
+  font-size: 9px;
+}
+.video_block {
+  display: block;
+  float: right;
+  width: 184px;
+  height: 104px;
+}
+.taim_dispy {
+  display: block;
+  float: right;
+  padding: 2px;
+  width: auto;
+  height: 12px;
+  margin: -14px 2px;
+  background: rgba(179, 179, 179, 0.7);
+  border-radius: 2px;
+}
+.cn_play {
+  display: block;
+  float: left;
+  width: 35px;
+  height: 35px;
+  margin: 32px 75px;
+  background: rgba(179, 179, 179, 0.3);
+  border: 0.5px solid #646464;
+  border-radius: 5px;
+}
+.cn_play:hover {
+  background: rgba(179, 179, 179, 0.7);
+}
+.icon_play {
+  display: block;
+  float: left;
+  width: 14px;
+  height: 18px;
+  margin: 9px 12px;
+  background: url("../Photos/UzerPhoto/Video/video_play.png");
+}
+.naime_video {
+  display: block;
+  float: left;
+  width: 184px;
+  margin: 5px 0px;
+}
+.obtic-2 {
+  display: block;
+  float: left;
+}
+.obtic-2:hover {
+  text-decoration: underline;
+}
+.obtic-3 {
+  display: block;
+  float: right;
+}
+.obtic-3:hover {
+  text-decoration: underline;
+}
+.text_pod_vid {
+  display: block;
+  float: left;
+  font-size: 9px;
+}
+.aud_zin {
+  display: block;
+  float: left;
+  width: 184px;
+  height: 22px;
+  margin: 5px 0px;
+}
+.aud_zin:hover {
+  background-color: #b2bddd;
+}
+.icon_play_aud {
+  display: block;
+  float: left;
+  margin: 2px 5px;
+  width: 16px;
+  height: 16px;
+  background: url("../Photos/UzerPhoto/audio/playpause.gif") no-repeat 0px 0px;
+}
+.naime_audio {
+  display: block;
+  float: left;
+  width: 120px;
+  height: 20px;
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 3px;
+  text-overflow: ellipsis;
+}
+.naime_audio:hover {
+  text-decoration: underline;
+}
+.taim_audio {
+  display: block;
+  float: right;
+  height: 20px;
+  padding: 3px;
+  color: black;
+}
+#ghaloba {
+  display: block;
+  text-align: center;
+  width: 185px;
+  height: 20px;
+  border-radius: 2px;
+  font-weight: 700;
+}
+#ghaloba:hover {
+  text-decoration: underline;
+  color: white;
+  font-weight: 900;
+  width: 185px;
+  height: 185px;
+  background: #ff0000 url("../Photos/UzerPhoto/nuclear-303831_960_720.png") no-repeat;
+  background-size: contain;
+}
+/*------------------------------------------------------------------------
+Картинки иконки и тд
+--------------------------------------------------------------------------*/
+#portret-1 {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url("../Photos/UzerPhoto/Photo/photo-1.jpg") no-repeat;
+  margin: 6px;
+}
+#portret-2 {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url("../Photos/UzerPhoto/Photo/photo-2.jpg") no-repeat;
+  margin: 6px;
+}
+#portret-3 {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url("../Photos/UzerPhoto/Photo/photo-3.jpg") no-repeat;
+  margin: 6px;
+}
+#portret-4 {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url("../Photos/UzerPhoto/Photo/photo-4.jpg") no-repeat;
+  margin: 6px;
+}
+#portret-5 {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url("../Photos/UzerPhoto/Photo/photo-5.jpg") no-repeat;
+  margin: 6px;
+}
+#portret-6 {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url("../Photos/UzerPhoto/Photo/photo-6.jpg") no-repeat;
+  margin: 6px;
+}
+#portret-7 {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url("../Photos/UzerPhoto/Photo/photo-7.jpg") no-repeat;
+  margin: 6px;
+}
+#portret-8 {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url("../Photos/UzerPhoto/Photo/photo-8.jpg") no-repeat;
+  margin: 6px;
+}
+#portret-9 {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url("../Photos/UzerPhoto/Photo/photo-9.jpg") no-repeat;
+  margin: 6px;
+}
+#albom_1 {
+  display: block;
+  width: 170px;
+  height: 113px;
+  background: url("../Photos/UzerPhoto/alboms/albom-1.jpg") no-repeat;
+  background-size: contain;
+}
+#albom_2 {
+  display: block;
+  width: 170px;
+  height: 113px;
+  background: url("../Photos/UzerPhoto/alboms/albom-3.jpg") no-repeat;
+  background-size: contain;
+}
+#news_st_1 {
+  display: block;
+  float: left;
+  width: 50px;
+  height: 50px;
+  background: url("../Photos/UzerPhoto/st-news/icon-news-1.jpg") no-repeat;
+  padding: 5px;
+}
+#news_st_2 {
+  display: block;
+  float: left;
+  width: 50px;
+  height: 50px;
+  background: url("../Photos/UzerPhoto/st-news/icon-news-2.jpg") no-repeat;
+  padding: 5px;
+}
+#news_st_3 {
+  display: block;
+  float: left;
+  width: 50px;
+  height: 50px;
+  background: url("../Photos/UzerPhoto/st-news/icon-news-3.jpg") no-repeat;
+  padding: 5px;
+}
+#news_st_4 {
+  display: block;
+  float: left;
+  width: 50px;
+  height: 50px;
+  background: url("../Photos/UzerPhoto/st-news/icon-news-4.jpg") no-repeat;
+  padding: 5px;
+}
+#news_st_5 {
+  display: block;
+  float: left;
+  width: 50px;
+  height: 50px;
+  background: url("../Photos/UzerPhoto/st-news/icon-news-5.jpg") no-repeat;
+  padding: 5px;
+}
+#ikon_vidio_1 {
+  width: 184px;
+  height: 104px;
+  background: url("../Photos/UzerPhoto/Video/Video--1.jpg") no-repeat;
+  background-size: contain;
+}
+#ikon_vidio_2 {
+  width: 184px;
+  height: 104px;
+  background: url("../Photos/UzerPhoto/Video/Video--2.jpg") no-repeat;
+  background-size: contain;
+}
