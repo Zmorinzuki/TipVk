@@ -13,30 +13,44 @@
   padding: 5px 0px 1px 4px;
   background-color: white;
 }
-
 .text_bar_line{
   list-style: none;
   padding: 0px;
-}
-
-.plus_line{
-  display: block;
-  float: right;
-  padding-right: 4px;
+  .bar_line{
+    display: table-cell;
+    vertical-align: middle;
+    height: 20px;
+    width: 110px;
+    margin: auto;
+    border-radius: 3px;
+  }
+  .bar_line:hover{
+    background-color: @color-gray_lite;
+  }
+  .red_dak{
+    display: table-cell;
+    vertical-align: middle;
+    height: 20px;
+    width: 20px;
+    border-radius: 3px;
+  }
+  .red_dak:hover{
+    background-color: @color-gray_lite;
+  }
+  .ws_fr{
+    display: block;
+    float: left;
+    color: #535152;
+    height: 10px;
+    width: 136px;
+    padding-bottom: 5px;
+  }
 }
 .last_line{
   float: inherit;
   margin-top: 1px;
   padding-top: 1px;
   border-top: 0.5px solid #888888;
-}
-.ws_fr{
-  display: block;
-  float: left;
-  color: #535152;
-  height: 10px;
-  width: 136px;
-  padding-bottom: 5px;
 }
 li{
   display: block;
@@ -47,28 +61,5 @@ a{
   text-decoration: none;
   color: @color-lite_blue;
   cursor: pointer;
-
-}
-.bar_line{
-  display: table-cell;
-  vertical-align: middle;
-  height: 20px;
-  width: 110px;
-  margin: auto;
-  border-radius: 3px;
-
-}
-.red_dak{
-  display: table-cell;
-  vertical-align: middle;
-  height: 20px;
-  width: 20px;
-  border-radius: 3px;
-}
-.bar_line:hover{
-  background-color: @color-gray_lite;
-}
-.red_dak:hover{
-  background-color: @color-gray_lite;
 }
 
