@@ -7,7 +7,7 @@
 }
 .block_bar {
   float: left;
-  width: 136px;
+  width: 135.928px;
   padding: 5px 0px 1px 4px;
   background-color: white;
 }
@@ -18,8 +18,8 @@
 .text_bar_line .bar_line {
   display: table-cell;
   vertical-align: middle;
+  width: 109.928px;
   height: 20px;
-  width: 110px;
   margin: auto;
   border-radius: 3px;
 }
@@ -30,7 +30,7 @@
   display: table-cell;
   vertical-align: middle;
   height: 20px;
-  width: 20px;
+  width: 19.927999999999997px;
   border-radius: 3px;
 }
 .text_bar_line .red_dak:hover {
@@ -41,7 +41,7 @@
   float: left;
   color: #535152;
   height: 10px;
-  width: 136px;
+  width: 135.928px;
   padding-bottom: 5px;
 }
 .last_line {

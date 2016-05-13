@@ -1,6 +1,6 @@
 .narrow_column {
   float: left;
-  width: 200px;
+  width: 201.968px;
   padding: 10px 0px 5px 0px;
   background-color: white;
 }
@@ -10,7 +10,7 @@
 .prezn_block {
   display: block;
   background-color: #b2bddd;
-  width: 186px;
+  width: 187.968px;
   height: 20px;
 }
 .nar_bar {
@@ -29,7 +29,7 @@
 ---------------------------------*/
 #mi_fd_block {
   display: block;
-  width: 190px;
+  width: 191.968px;
   height: 83px;
   background-color: #ededed;
   text-align: center;
@@ -37,7 +37,7 @@
 #mi_fd_block #block_otp {
   display: block;
   float: left;
-  width: 180px;
+  width: 181.968px;
   height: 30px;
   margin: 5px;
   background-color: #54769b;
@@ -51,7 +51,7 @@
 #mi_fd_block #Block_al_dr {
   display: block;
   float: left;
-  width: 180px;
+  width: 181.968px;
   height: 30px;
   margin: 5px;
   color: #5d5d5d;
@@ -70,7 +70,7 @@
 --------------------------------------------------*/
 #block_foto_i_td {
   display: block;
-  width: 190px;
+  width: 191.968px;
   height: 50px;
   background-color: white;
   font-size: 9px;
@@ -79,7 +79,7 @@
 #block_foto_i_td .ctr_fot_pd {
   display: block;
   float: left;
-  width: 184px;
+  width: 187.968px;
   height: 20px;
   margin: 1px;
   background-color: white;
@@ -107,7 +107,7 @@
 #block_foto_i_td .knopka_fo_pd {
   display: block;
   float: left;
-  width: 150px;
+  width: 151.968px;
   height: 10px;
   margin: 5px 2px;
 }
@@ -145,18 +145,18 @@
 .normal_text {
   display: block;
   padding: 3px 5px;
-  width: 180px;
+  width: 181.968px;
   font-weight: 800;
 }
 .normal_text_centr {
   display: block;
   padding: 3px 35px;
-  width: 120px;
+  width: 121.96799999999999px;
 }
 .normal_text_v1 {
   display: block;
   padding: 3px 5px;
-  width: 180px;
+  width: 181.968px;
   font-weight: 300;
 }
 .namber_text_right {
@@ -166,7 +166,7 @@
 .nz_block {
   display: block;
   background-color: #c8cdd5;
-  width: 186px;
+  width: 187.968px;
   height: 22px;
 }
 /*----------------------------------------------------------------------------------
@@ -184,7 +184,7 @@
 }
 #gift_pr_block #block_prezn {
   display: block;
-  width: 184px;
+  width: 185.968px;
   height: 61px;
   padding: 10px 0px;
 }
@@ -196,29 +196,29 @@
 }
 #gift_pr_block #block_prezn .block_prezn_photo #ass_prezn_photo_1 {
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 61.96799999999999px;
+  height: 61.96799999999999px;
   background: url("../Photos/UzerPhoto/present_1.png") no-repeat;
   background-size: contain;
 }
 #gift_pr_block #block_prezn .block_prezn_photo #ass_prezn_photo_2 {
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 61.96799999999999px;
+  height: 61.96799999999999px;
   background: url("../Photos/UzerPhoto/present_1.png") no-repeat;
   background-size: contain;
 }
 #gift_pr_block #block_prezn .block_prezn_photo #ass_prezn_photo_3 {
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 61.96799999999999px;
+  height: 61.96799999999999px;
   background: url("../Photos/UzerPhoto/present_2.png") no-repeat;
   background-size: contain;
 }
 #gift_pr_block #prezn_block_otp {
   display: block;
   background-color: #b2bddd;
-  width: 186px;
+  width: 187.968px;
   height: 20px;
 }
 #gift_pr_block #prezn_block_otp #prezn_gift_2 {
@@ -239,23 +239,23 @@
 }
 #frend_block #frend_al {
   display: block;
-  width: 184px;
+  width: 185.968px;
   height: 180px;
 }
 #frend_block #fr_ob_block {
   display: block;
-  width: 184px;
+  width: 185.968px;
   height: 91px;
 }
 #frend_block .frend_icon {
   display: block;
   float: left;
-  width: 60px;
+  width: 61.96799999999999px;
   height: 90px;
 }
 #frend_block .frend_icon .naime_portren {
   display: block;
-  width: 60px;
+  width: 61.96799999999999px;
   height: 30px;
 }
 #frend_block .frend_icon .neme_text {
@@ -271,64 +271,64 @@
 }
 #frend_block .frend_icon #portret-1 {
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 51.96799999999999px;
+  height: 51.96799999999999px;
   background: url("../Photos/UzerPhoto/Photo/photo-1.jpg") no-repeat;
   margin: 6px;
 }
 #frend_block .frend_icon #portret-2 {
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 51.96799999999999px;
+  height: 51.96799999999999px;
   background: url("../Photos/UzerPhoto/Photo/photo-2.jpg") no-repeat;
   margin: 6px;
 }
 #frend_block .frend_icon #portret-3 {
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 51.96799999999999px;
+  height: 51.96799999999999px;
   background: url("../Photos/UzerPhoto/Photo/photo-3.jpg") no-repeat;
   margin: 6px;
 }
 #frend_block .frend_icon #portret-4 {
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 51.96799999999999px;
+  height: 51.96799999999999px;
   background: url("../Photos/UzerPhoto/Photo/photo-4.jpg") no-repeat;
   margin: 6px;
 }
 #frend_block .frend_icon #portret-5 {
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 51.96799999999999px;
+  height: 51.96799999999999px;
   background: url("../Photos/UzerPhoto/Photo/photo-5.jpg") no-repeat;
   margin: 6px;
 }
 #frend_block .frend_icon #portret-6 {
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 51.96799999999999px;
+  height: 51.96799999999999px;
   background: url("../Photos/UzerPhoto/Photo/photo-6.jpg") no-repeat;
   margin: 6px;
 }
 #frend_block .frend_icon #portret-7 {
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 51.96799999999999px;
+  height: 51.96799999999999px;
   background: url("../Photos/UzerPhoto/Photo/photo-7.jpg") no-repeat;
   margin: 6px;
 }
 #frend_block .frend_icon #portret-8 {
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 51.96799999999999px;
+  height: 51.96799999999999px;
   background: url("../Photos/UzerPhoto/Photo/photo-8.jpg") no-repeat;
   margin: 6px;
 }
 #frend_block .frend_icon #portret-9 {
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 51.96799999999999px;
+  height: 51.96799999999999px;
   background: url("../Photos/UzerPhoto/Photo/photo-9.jpg") no-repeat;
   margin: 6px;
 }
@@ -346,19 +346,19 @@
 }
 #fo_albom {
   display: block;
-  width: 184px;
+  width: 185.968px;
   height: 251px;
 }
 #fo_albom .albom_block {
   display: block;
-  width: 170px;
+  width: 171.968px;
   height: 113px;
   float: left;
   margin: 6px;
 }
 #fo_albom .albom_block .nz_alb_block {
   display: block;
-  width: 170px;
+  width: 171.968px;
   height: 23px;
   color: white;
   background: rgba(179, 179, 179, 0.3);
@@ -381,74 +381,74 @@
 }
 #fo_albom #albom_1 {
   display: block;
-  width: 170px;
-  height: 113px;
+  width: 171.968px;
+  height: 114.96799999999999px;
   background: url("../Photos/UzerPhoto/alboms/albom-1.jpg") no-repeat;
   background-size: contain;
 }
 #fo_albom #albom_2 {
   display: block;
-  width: 170px;
-  height: 113px;
+  width: 171.968px;
+  height: 114.96799999999999px;
   background: url("../Photos/UzerPhoto/alboms/albom-3.jpg") no-repeat;
   background-size: contain;
 }
 #interes_stranici {
   display: block;
-  width: 184px;
+  width: 185.968px;
   height: 390px;
 }
 #interes_stranici .block_news {
   display: block;
   float: left;
-  width: 178px;
+  width: 179.968px;
   height: 60px;
   margin: 5px;
 }
 #interes_stranici .block_news #news_st_1 {
   display: block;
   float: left;
-  width: 50px;
-  height: 50px;
+  width: 51.96799999999999px;
+  height: 51.96799999999999px;
   background: url("../Photos/UzerPhoto/st-news/icon-news-1.jpg") no-repeat;
   padding: 5px;
 }
 #interes_stranici .block_news #news_st_2 {
   display: block;
   float: left;
-  width: 50px;
-  height: 50px;
+  width: 51.96799999999999px;
+  height: 51.96799999999999px;
   background: url("../Photos/UzerPhoto/st-news/icon-news-2.jpg") no-repeat;
   padding: 5px;
 }
 #interes_stranici .block_news #news_st_3 {
   display: block;
   float: left;
-  width: 50px;
-  height: 50px;
+  width: 51.96799999999999px;
+  height: 51.96799999999999px;
   background: url("../Photos/UzerPhoto/st-news/icon-news-3.jpg") no-repeat;
   padding: 5px;
 }
 #interes_stranici .block_news #news_st_4 {
   display: block;
   float: left;
-  width: 50px;
-  height: 50px;
+  width: 51.96799999999999px;
+  height: 51.96799999999999px;
   background: url("../Photos/UzerPhoto/st-news/icon-news-4.jpg") no-repeat;
   padding: 5px;
 }
 #interes_stranici .block_news #news_st_5 {
   display: block;
   float: left;
-  width: 50px;
-  height: 50px;
+  width: 51.96799999999999px;
+  height: 51.96799999999999px;
   background: url("../Photos/UzerPhoto/st-news/icon-news-5.jpg") no-repeat;
   padding: 5px;
 }
 #interes_stranici .block_news .obtic {
   display: block;
   float: left;
-  width: 115px;
+  width: 116.96799999999999px;
   height: 20px;
 }
 #interes_stranici .block_news .obtic:hover {
@@ -459,13 +459,13 @@
 }
 #vidio_zapis {
   display: block;
-  width: 185px;
+  width: 186.968px;
   height: 350px;
 }
 #vidio_zapis .video_block {
   display: block;
   float: right;
-  width: 184px;
+  width: 185.968px;
   height: 104px;
 }
 #vidio_zapis .video_block .cn_play {
@@ -500,21 +500,21 @@
   border-radius: 2px;
 }
 #vidio_zapis #ikon_vidio_1 {
-  width: 184px;
-  height: 104px;
+  width: 185.968px;
+  height: 105.96799999999999px;
   background: url("../Photos/UzerPhoto/Video/Video--1.jpg") no-repeat;
   background-size: contain;
 }
 #vidio_zapis #ikon_vidio_2 {
-  width: 184px;
-  height: 104px;
+  width: 185.968px;
+  height: 105.96799999999999px;
   background: url("../Photos/UzerPhoto/Video/Video--2.jpg") no-repeat;
   background-size: contain;
 }
 #vidio_zapis .naime_video {
   display: block;
   float: left;
-  width: 184px;
+  width: 185.968px;
   margin: 5px 0px;
 }
 #vidio_zapis .naime_video .obtic-2 {
@@ -538,13 +538,13 @@
 }
 #Audio_zapis {
   display: block;
-  width: 185px;
+  width: 186.968px;
   height: 150px;
 }
 #Audio_zapis .aud_zin {
   display: block;
   float: left;
-  width: 184px;
+  width: 185.968px;
   height: 22px;
   margin: 5px 0px;
 }
@@ -559,7 +559,7 @@
 #Audio_zapis .aud_zin .naime_audio {
   display: block;
   float: left;
-  width: 120px;
+  width: 121.96799999999999px;
   height: 20px;
   font-weight: 400;
   white-space: nowrap;
@@ -583,7 +583,7 @@
 #ghaloba {
   display: block;
   text-align: center;
-  width: 185px;
+  width: 186.968px;
   height: 20px;
   border-radius: 2px;
   font-weight: 700;
@@ -592,8 +592,8 @@
   text-decoration: underline;
   color: white;
   font-weight: 900;
-  width: 185px;
-  height: 185px;
+  width: 186.968px;
+  height: 186.968px;
   background: #ff0000 url("../Photos/UzerPhoto/nuclear-303831_960_720.png") no-repeat;
   background-size: contain;
 }

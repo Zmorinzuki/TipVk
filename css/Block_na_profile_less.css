@@ -1,7 +1,7 @@
 .na_profile {
   display: block;
   float: right;
-  width: 890px;
+  width: 890.0319999999999px;
   padding: 4px;
   background-color: #f4f4f4;
   border-right: 1px solid #d9d6d7;
@@ -146,7 +146,7 @@
 }
 #centr_pod {
   display: block;
-  width: 600px;
+  width: 600.0319999999999px;
   height: 60px;
   margin-left: auto;
   margin-right: auto;
@@ -157,13 +157,13 @@
 }
 #verh_strok {
   display: block;
-  width: 600px;
+  width: 600.0319999999999px;
   height: 16px;
   margin: 10px 0px;
 }
 #centr_strok {
   display: block;
-  width: 600px;
+  width: 600.0319999999999px;
   height: 12px;
   color: black;
 }
@@ -176,7 +176,7 @@
 }
 #niz_strok {
   display: block;
-  width: 600px;
+  width: 600.0319999999999px;
   height: 11px;
   font-size: 10px;
   color: #4b6988;

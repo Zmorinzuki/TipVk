@@ -2,6 +2,11 @@
 
 @size_absolutely:1040px;
 
+@size_n_c_b_l:@size_absolutely * 1.942 / 10;
+@size_-14:@size_n_c_b_l - 14;
+@size_-50:@size_n_c_b_l - 50;
+@size_-100:@size_n_c_b_l - 100;
+
 @color-blue:#54769B;
 @color-darck_blue: #2b5274;
 @color-lite_blue:#4b6988;
@@ -10,7 +15,7 @@
 @color-gray_lite: #c8cdd5;
 .narrow_column{
   float: left;
-  width: 200px;
+  width: @size_n_c_b_l;
   padding: 10px 0px 5px 0px;
   background-color: white;
 
@@ -21,7 +26,7 @@
 .prezn_block {
   display: block;
   background-color: @color-white_blue;
-  width: 186px;
+  width: @size_-14;
   height: 20px;
 }
 .nar_bar{
@@ -40,14 +45,14 @@
 ---------------------------------*/
 #mi_fd_block{
   display: block;
-  width: 190px;
+  width: (@size_-14 + 4);
   height: 83px;
   background-color: #ededed;
   text-align: center;
   #block_otp{
     display: block;
     float: left;
-    width: 180px;
+    width: (@size_-14 - 6);
     height: 30px;
     margin: 5px;
     background-color: @color-blue;
@@ -61,7 +66,7 @@
   #Block_al_dr{
     display: block;
     float: left;
-    width: 180px;
+    width: (@size_-14 - 6);
     height: 30px;
     margin: 5px;
     color: #5d5d5d;
@@ -81,7 +86,7 @@
 --------------------------------------------------*/
 #block_foto_i_td{
   display: block;
-  width:190px;
+  width:(@size_-14 + 4);
   height: 50px;
   background-color: white;
   font-size: 9px;
@@ -89,7 +94,7 @@
   .ctr_fot_pd{
     display: block;
     float: left;
-    width: 184px;
+    width: @size_-14;
     height: 20px;
     margin: 1px;
     background-color: white;
@@ -117,7 +122,7 @@
   .knopka_fo_pd{
     display: block;
     float: left;
-    width: 150px;
+    width: @size_-50;
     height: 10px;
     margin: 5px 2px;
   }
@@ -157,18 +162,18 @@
 .normal_text{
   display: block;
   padding: 3px 5px;
-  width: 180px;
+  width: (@size_-14 - 6);
   font-weight: 800;
 }
 .normal_text_centr{
   display: block;
   padding: 3px 35px;
-  width: 120px;
+  width: (@size_-50 - 30);
 }
 .normal_text_v1{
   display: block;
   padding: 3px 5px;
-  width: 180px;
+  width: (@size_-14 - 6);
   font-weight:300;
 }
 .namber_text_right{
@@ -178,7 +183,7 @@
 .nz_block{
   display: block;
   background-color:  @color-gray_lite;
-  width: 186px;
+  width: @size_-14;
   height: 22px;
 }
 /*----------------------------------------------------------------------------------
@@ -195,7 +200,7 @@
   }
   #block_prezn{
     display: block;
-    width: 184px;
+    width: (@size_-14 - 2);
     height: 61px;
     padding: 10px 0px;
     .block_prezn_photo{
@@ -205,22 +210,22 @@
       height:60px;
       #ass_prezn_photo_1{
         display: block;
-        width: 60px;
-        height: 60px;
+        width: (@size_-100 - 40);
+        height: (@size_-100 - 40);
         background:url("../Photos/UzerPhoto/present_1.png") no-repeat;
         background-size: contain;
       }
       #ass_prezn_photo_2{
         display: block;
-        width: 60px;
-        height: 60px;
+        width: (@size_-100 - 40);
+        height: (@size_-100 - 40);
         background:url("../Photos/UzerPhoto/present_1.png") no-repeat;
         background-size: contain;
       }
       #ass_prezn_photo_3{
         display: block;
-        width: 60px;
-        height: 60px;
+        width: (@size_-100 - 40);
+        height: (@size_-100 - 40);
         background: url("../Photos/UzerPhoto/present_2.png") no-repeat;
         background-size: contain;
       }
@@ -229,7 +234,7 @@
   #prezn_block_otp{
     display: block;
     background-color: @color-white_blue;
-    width: 186px;
+    width: @size_-14;
     height: 20px;
     #prezn_gift_2{
       float: left;
@@ -250,22 +255,22 @@
   padding: 2px;
   #frend_al{
     display: block;
-    width: 184px;
+    width: (@size_-14 - 2);
     height: 180px;
   }
   #fr_ob_block{
     display: block;
-    width: 184px;
+    width: (@size_-14 - 2);
     height: 91px;
   }
   .frend_icon{
     display: block;
     float: left;
-    width: 60px;
+    width: (@size_-100 - 40);
     height: 90px;
     .naime_portren{
       display: block;
-      width: 60px;
+      width: (@size_-100 - 40);
       height: 30px;
     }
     .neme_text{
@@ -281,64 +286,64 @@
     }
     #portret-1{
       display: block;
-      width: 50px;
-      height: 50px;
+      width: (@size_-100 - 50);
+      height: (@size_-100 - 50);
       background: url("../Photos/UzerPhoto/Photo/photo-1.jpg")no-repeat;
       margin: 6px;
     }
     #portret-2{
       display: block;
-      width: 50px;
-      height: 50px;
+      width: (@size_-100 - 50);
+      height: (@size_-100 - 50);
       background: url("../Photos/UzerPhoto/Photo/photo-2.jpg")no-repeat;
       margin: 6px;
     }
     #portret-3{
       display: block;
-      width: 50px;
-      height: 50px;
+      width: (@size_-100 - 50);
+      height: (@size_-100 - 50);
       background: url("../Photos/UzerPhoto/Photo/photo-3.jpg")no-repeat;
       margin: 6px;
     }
     #portret-4{
       display: block;
-      width: 50px;
-      height: 50px;
+      width: (@size_-100 - 50);
+      height: (@size_-100 - 50);
       background: url("../Photos/UzerPhoto/Photo/photo-4.jpg")no-repeat;
       margin: 6px;
     }
     #portret-5{
       display: block;
-      width: 50px;
-      height: 50px;
+      width: (@size_-100 - 50);
+      height: (@size_-100 - 50);
       background: url("../Photos/UzerPhoto/Photo/photo-5.jpg")no-repeat;
       margin: 6px;
     }
     #portret-6{
       display: block;
-      width: 50px;
-      height: 50px;
+      width: (@size_-100 - 50);
+      height: (@size_-100 - 50);
       background: url("../Photos/UzerPhoto/Photo/photo-6.jpg")no-repeat;
       margin: 6px;
     }
     #portret-7{
       display: block;
-      width: 50px;
-      height: 50px;
+      width: (@size_-100 - 50);
+      height: (@size_-100 - 50);
       background: url("../Photos/UzerPhoto/Photo/photo-7.jpg")no-repeat;
       margin: 6px;
     }
     #portret-8{
       display: block;
-      width: 50px;
-      height: 50px;
+      width: (@size_-100 - 50);
+      height: (@size_-100 - 50);
       background: url("../Photos/UzerPhoto/Photo/photo-8.jpg")no-repeat;
       margin: 6px;
     }
     #portret-9{
       display: block;
-      width: 50px;
-      height: 50px;
+      width: (@size_-100 - 50);
+      height: (@size_-100 - 50);
       background: url("../Photos/UzerPhoto/Photo/photo-9.jpg")no-repeat;
       margin: 6px;
     }
@@ -358,17 +363,17 @@
 }
 #fo_albom{
   display: block;
-  width: 184px;
+  width: (@size_-14 - 2);
   height: 251px;
   .albom_block{
     display: block;
-    width: 170px;
+    width: (@size_-14 - 16);
     height: 113px;
     float: left;
     margin: 6px;
     .nz_alb_block{
       display: block;
-      width: 170px;
+      width: (@size_-14 - 16);
       height: 23px;
       color: white;
       background: rgba(179, 179, 179, 0.3);
@@ -392,73 +397,73 @@
   }
   #albom_1{
     display: block;
-    width: 170px;
-    height: 113px;
+    width: (@size_-14 - 16);
+    height: (@size_-50 - 37);
     background: url("../Photos/UzerPhoto/alboms/albom-1.jpg") no-repeat;
     background-size: contain;
   }
   #albom_2{
     display: block;
-    width: 170px;
-    height: 113px;
+    width: (@size_-14 - 16);
+    height: (@size_-50 - 37);
     background: url("../Photos/UzerPhoto/alboms/albom-3.jpg") no-repeat;
     background-size: contain;
   }
 }
 #interes_stranici{
   display: block;
-  width: 184px;
+  width: (@size_-14 - 2);
   height: 390px;
   .block_news{
     display: block;
     float: left;
-    width: 178px;
+    width: (@size_-14 - 8);
     height:60px;
     margin: 5px;
     #news_st_1{
       display: block;
       float: left;
-      width: 50px;
-      height: 50px;
+      width: (@size_-100 - 50);
+      height: (@size_-100 - 50);
       background: url("../Photos/UzerPhoto/st-news/icon-news-1.jpg") no-repeat;
       padding: 5px;
     }
     #news_st_2{
       display: block;
       float: left;
-      width: 50px;
-      height: 50px;
+      width: (@size_-100 - 50);
+      height: (@size_-100 - 50);
       background: url("../Photos/UzerPhoto/st-news/icon-news-2.jpg") no-repeat;
       padding: 5px;
     }
     #news_st_3{
       display: block;
       float: left;
-      width: 50px;
-      height: 50px;
+      width: (@size_-100 - 50);
+      height: (@size_-100 - 50);
       background: url("../Photos/UzerPhoto/st-news/icon-news-3.jpg") no-repeat;
       padding: 5px;
     }
     #news_st_4{
       display: block;
       float: left;
-      width: 50px;
-      height: 50px;
+      width: (@size_-100 - 50);
+      height: (@size_-100 - 50);
       background: url("../Photos/UzerPhoto/st-news/icon-news-4.jpg") no-repeat;
       padding: 5px;
     }
     #news_st_5{
       display: block;
       float: left;
-      width: 50px;
-      height: 50px;
+      width: (@size_-100 - 50);
+      height: (@size_-100 - 50);
       background: url("../Photos/UzerPhoto/st-news/icon-news-5.jpg") no-repeat;
       padding: 5px;
     }
     .obtic{
       display: block;
       float: left;
-      width: 115px;
+      width: (@size_-100 + 15);
       height: 20px;
     }
     .obtic:hover{
@@ -471,12 +476,12 @@
 }
 #vidio_zapis{
   display: block;
-  width: 185px;
+  width: (@size_-14 - 1);
   height: 350px;
   .video_block{
     display: block;
     float: right;
-    width: 184px;
+    width: (@size_-14 - 2);
     height: 104px;
     .cn_play{
       display: block;
@@ -511,21 +516,21 @@
     }
   }
   #ikon_vidio_1{
-    width: 184px;
-    height: 104px;
+    width: (@size_-14 - 2);
+    height: (@size_-100 + 4);
     background: url("../Photos/UzerPhoto/Video/Video--1.jpg") no-repeat;
     background-size: contain;
   }
   #ikon_vidio_2{
-    width: 184px;
-    height: 104px;
+    width: (@size_-14 - 2);
+    height: (@size_-100 + 4);
     background: url("../Photos/UzerPhoto/Video/Video--2.jpg") no-repeat;
     background-size: contain;
   }
   .naime_video{
     display: block;
     float: left;
-    width: 184px;
+    width: (@size_-14 - 2);
     margin: 5px 0px;
     .obtic-2{
       display: block;
@@ -550,12 +555,12 @@
 }
 #Audio_zapis{
   display: block;
-  width: 185px;
+  width: (@size_-14 - 1);
   height: 150px;
   .aud_zin{
     display: block;
     float: left;
-    width: 184px;
+    width: (@size_-14 - 2);
     height: 22px;
     margin: 5px 0px;
     .icon_play_aud{
@@ -569,7 +574,7 @@
     .naime_audio{
       display: block;
       float: left;
-      width: 120px;
+      width: (@size_-50 - 30);
       height: 20px;
       font-weight: 400;
       white-space: nowrap;
@@ -595,7 +600,7 @@
 #ghaloba{
   display: block;
   text-align: center;
-  width: 185px;
+  width: (@size_-14 - 1);
   height: 20px;
   border-radius: 2px;
   font-weight: 700;
@@ -604,8 +609,8 @@
   text-decoration: underline;
   color: white;
   font-weight: 900;
-  width: 185px;
-  height: 185px;
+  width: (@size_-14 - 1);
+  height: (@size_-14 - 1);
   background: red url("../Photos/UzerPhoto/nuclear-303831_960_720.png") no-repeat;
   background-size: contain;
 }

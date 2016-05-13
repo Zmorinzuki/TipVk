@@ -1,5 +1,7 @@
 @size_absolutely:1040px;
 
+@size_b_n_p_l:@size_absolutely * 8.558 / 10;
+
 @color-blue:#54769B;
 @color-darck_blue: #2b5274;
 @color-lite_blue:#4b6988;
@@ -9,7 +11,7 @@
 .na_profile{
   display: block;
   float: right;
-  width: 890px;
+  width: @size_b_n_p_l;
   padding: 4px;
   background-color: #f4f4f4;
   border-right: 1px solid #d9d6d7;
@@ -45,7 +47,7 @@
 ------------------------------------------------------------------------------------------------------------------------*/
 #cap{
   display: block;
-  width: 1070px;
+  width: (@size_absolutely + 30);
   height: 40px;
   margin-left: auto;
   margin-right: auto;
@@ -149,12 +151,12 @@
 #podval{
   display: block;
   float: right;
-  width: 1100px;
+  width: (@size_absolutely + 60);
   height: 60px;
 }
 #centr_pod{
   display: block;
-  width: 600px;
+  width: (@size_b_n_p_l - 290);
   height: 60px;
   margin-left: auto;
   margin-right: auto;
@@ -165,13 +167,13 @@
 }
 #verh_strok{
   display: block;
-  width:600px;
+  width:(@size_b_n_p_l - 290);
   height: 16px;
   margin: 10px 0px;
 }
 #centr_strok{
   display: block;
-  width: 600px;
+  width: (@size_b_n_p_l - 290);
   height: 12px;
   color: black;
 }
@@ -184,7 +186,7 @@
 }
 #niz_strok{
   display: block;
-  width: 600px;
+  width: (@size_b_n_p_l - 290);
   height: 11px;
   font-size: 10px;
   color: @color-lite_blue;
