@@ -1,3 +1,11 @@
+.block_left {
+  display: block;
+  float: left;
+}
+.block_right {
+  display: block;
+  float: right;
+}
 .na_profile {
   display: block;
   float: right;
@@ -88,8 +96,9 @@
   float: left;
   width: 12px;
   height: 12px;
-  margin: 2px;
   background: #ffffff url("../Photos/UzerPhoto/search_icon_d.gif") 2px 4px no-repeat;
+  background-size: cover;
+  margin: 2px;
 }
 .button {
   display: block;
@@ -128,9 +137,9 @@
   float: left;
   width: 8px;
   height: 12px;
-  margin: 7px 9px;
   background: url("../Photos/UzerPhoto/Video/video_play.png") no-repeat;
   background-size: cover;
+  margin: 7px 9px;
 }
 .left_ost {
   margin-right: 10px;

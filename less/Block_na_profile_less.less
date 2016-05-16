@@ -8,9 +8,25 @@
 @color-white_blue:#aeb3bb;
 @color-gray_lite:#868a90;
 
-.na_profile{
+.block_left{
+  display: block;
+  float: left;
+}
+.block_right{
   display: block;
   float: right;
+}
+.photos_arg(@background,@width,@height,@margin){
+  .block_left;
+  width: (@width);
+  height: (@height);
+  background: (@background);
+  background-size: cover;
+  margin: (@margin);
+}
+//------------------------
+.na_profile{
+  .block_right;
   width: @size_b_n_p_l;
   padding: 4px;
   background-color: #f4f4f4;
@@ -27,16 +43,14 @@
   font-weight: 600;
 }
 #sost_nemi{
-  display: block;
-  float: left;
+  .block_left;
   width: auto;
   height: 12px;
   margin: 7px 7px;
   color: @color-gray_lite;
 }
 #sost_online{
-  display: block;
-  float: right;
+  .block_right;
   width: auto;
   height: 12px;
   margin: 7px 7px;
@@ -56,8 +70,7 @@
   border-bottom-left-radius: 10px;
 }
 #vc{
-  display: block;
-  float: left;
+  .block_left;
   width: 120px;
   height: 22px;
   margin: 8px;
@@ -69,8 +82,7 @@
   font-size: 14px;
 }
 #vc_B{
-  display: block;
-  float: left;
+  .block_left;
   width: 22px;
   height: 22px;
   margin-right: 3px;
@@ -87,23 +99,16 @@
   margin: 1px 4px;
 }
 #poisk{
-  display: block;
-  float: left;
+  .block_left;
   width: 140px;
   height: 15px;
   margin: 8px 0px;
 }
 #poisc_icon{
-  display: block;
-  float: left;
-  width: 12px;
-  height: 12px;
-  margin: 2px;
-  background: white url("../Photos/UzerPhoto/search_icon_d.gif") 2px 4px no-repeat ;
+  .photos_arg(white url("../Photos/UzerPhoto/search_icon_d.gif") 2px 4px no-repeat,12px,12px,2px);
 }
 .button{
-  display: block;
-  float: right;
+  .block_right;
   width: auto;
   height: 40px;
   font-size: 12px;
@@ -118,15 +123,13 @@
   font-size: 14px;
 }
 .v_centr{
-  display: block;
-  float: left;
+  .block_left;
   width: auto;
   height: auto;
   margin: 10px 10px;
 }
 #block_icon{
-  display: block;
-  float: right;
+  .block_right;
   width: 25px;
   height: 25px;
   margin:-4px 0px 0px 5px;
@@ -134,13 +137,7 @@
   border-radius: 5px;
 }
 #icon_mesic{
-  display: block;
-  float: left;
-  width: 8px;
-  height: 12px;
-  margin: 7px 9px;
-  background: url("../Photos/UzerPhoto/Video/video_play.png") no-repeat;
-  background-size: cover;
+  .photos_arg(url("../Photos/UzerPhoto/Video/video_play.png") no-repeat,8px,12px,7px 9px);
 }
 .left_ost{
   margin-right: 10px;
@@ -149,8 +146,7 @@
 подвал
 ------------------------------------------------------------------------------------*/
 #podval{
-  display: block;
-  float: right;
+  .block_right;
   width: (@size_absolutely + 60);
   height: 60px;
 }
@@ -193,8 +189,7 @@
   margin: 5px 0px;
 }
 .ctaka{
-  display: block;
-  float: left;
+  .block_left;
   width: auto;
   height: 16px;
   padding: 2px 5px;

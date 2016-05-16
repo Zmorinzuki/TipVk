@@ -1,5 +1,4 @@
 //---- левый блок друзья подписки
-
 @size_absolutely:1040px;
 
 @size_n_c_b_l:@size_absolutely * 1.942 / 10;
@@ -13,6 +12,32 @@
 @color-white_blue: #b2bddd;
 @color-white_blue_l: #d1dcf4;
 @color-gray_lite: #c8cdd5;
+
+.block_left{
+  display: block;
+  float: left;
+}
+.block_right{
+  display: block;
+  float: right;
+}
+.photos_arg(@background,@width,@height,@margin){
+  .block_left;
+  width: (@width);
+  height: (@height);
+  background: (@background);
+  background-size: cover;
+  margin: (@margin);
+}
+.photos_arg_right(@background,@width,@height,@margin){
+  .block_right;
+  width: (@width);
+  height: (@height);
+  background: (@background);
+  background-size: cover;
+  margin: (@margin);
+}
+//---------------------------------
 .narrow_column{
   float: left;
   width: @size_n_c_b_l;
@@ -50,8 +75,7 @@
   background-color: #ededed;
   text-align: center;
   #block_otp{
-    display: block;
-    float: left;
+    .block_left;
     width: (@size_-14 - 6);
     height: 30px;
     margin: 5px;
@@ -64,8 +88,7 @@
     background-color: @color-darck_blue;
   }
   #Block_al_dr{
-    display: block;
-    float: left;
+    .block_left;
     width: (@size_-14 - 6);
     height: 30px;
     margin: 5px;
@@ -92,43 +115,30 @@
   font-size: 9px;
   margin: 5px 0px;
   .ctr_fot_pd{
-    display: block;
-    float: left;
+    .block_left;
     width: @size_-14;
     height: 20px;
     margin: 1px;
     background-color: white;
     border-radius: 3px;
     #icon_1{
-      display: block;
-      float: right;
-      width: 13px;
-      height: 10px;
-      margin: 5px 3px;
-      background: url("../Photos/UzerPhoto/profile_icons.png") 0px 0px no-repeat;
+      .photos_arg_right(url("../Photos/UzerPhoto/profile_icons.png") 0px 0px no-repeat,13px,10px,5px 3px);
     }
     #icon_2{
-      display: block;
-      float: right;
-      width: 13px;
-      height: 10px;
-      margin: 5px 3px;
-      background: url("../Photos/UzerPhoto/profile_icons.png") 0px -24px no-repeat;
+      .photos_arg_right(url("../Photos/UzerPhoto/profile_icons.png") 0px -24px no-repeat,13px,10px,5px 3px);
     }
   }
   .ctr_fot_pd:hover{
     background-color: @color-gray_lite;
   }
   .knopka_fo_pd{
-    display: block;
-    float: left;
+    .block_left;
     width: @size_-50;
     height: 10px;
     margin: 5px 2px;
   }
   .namb_ft_pd{
-    display: block;
-    float: right;
+    .block_right;
     width: 10px;
     height: 10px;
     margin: 5px 0px;
@@ -137,23 +147,17 @@
 }
 /*----------------------------------------------------------*/
 .arr_photos{
-  float: right;
+  .block_right;
   padding: 2px;
 }
 .namber_text{
   margin: 2px;
 }
 #ass_photos{
-  float: right;
-  width: 13px;
-  height: 10px;
-  background:white url("../Photos/UzerPhoto/profile_icons.png") no-repeat 0px 0px;
+  .photos_arg_right(white url("../Photos/UzerPhoto/profile_icons.png") no-repeat 0px 0px,13px,10px,0);
 }
 #ass_pod{
-  float: right;
-  width: 13px;
-  height: 10px;
-  background:white url("../Photos/UzerPhoto/profile_icons.png") no-repeat 0px -23px;
+  .photos_arg_right(white url("../Photos/UzerPhoto/profile_icons.png") no-repeat 0px -23px,13px,10px,0);
 }
 #pod_al{
   margin-right:20px ;
@@ -177,7 +181,7 @@
   font-weight:300;
 }
 .namber_text_right{
-  float: right;
+  .block_right;
   padding-right: 2px;
 }
 .nz_block{
@@ -193,10 +197,7 @@
   display: block;
   padding: 2px;
   #prezn_gift{
-    float: right;
-    width: 13px;
-    height: 10px;
-    background:url("../Photos/UzerPhoto/profile_icons.png") no-repeat 0px -34px;
+    .photos_arg_right(url("../Photos/UzerPhoto/profile_icons.png") no-repeat 0px -34px,13px,10px,0);
   }
   #block_prezn{
     display: block;
@@ -204,30 +205,17 @@
     height: 61px;
     padding: 10px 0px;
     .block_prezn_photo{
-      display:block;
-      float: left;
+      .block_left;
       width:60px;
       height:60px;
       #ass_prezn_photo_1{
-        display: block;
-        width: (@size_-100 - 40);
-        height: (@size_-100 - 40);
-        background:url("../Photos/UzerPhoto/present_1.png") no-repeat;
-        background-size: contain;
+        .photos_arg(url("../Photos/UzerPhoto/present_1.png") no-repeat,(@size_-100 - 40),(@size_-100 - 40),0);
       }
       #ass_prezn_photo_2{
-        display: block;
-        width: (@size_-100 - 40);
-        height: (@size_-100 - 40);
-        background:url("../Photos/UzerPhoto/present_1.png") no-repeat;
-        background-size: contain;
+        .photos_arg(url("../Photos/UzerPhoto/present_1.png") no-repeat,(@size_-100 - 40),(@size_-100 - 40),0);
       }
       #ass_prezn_photo_3{
-        display: block;
-        width: (@size_-100 - 40);
-        height: (@size_-100 - 40);
-        background: url("../Photos/UzerPhoto/present_2.png") no-repeat;
-        background-size: contain;
+        .photos_arg(url("../Photos/UzerPhoto/present_2.png") no-repeat,(@size_-100 - 40),(@size_-100 - 40),0);
       }
     }
   }
@@ -237,10 +225,7 @@
     width: @size_-14;
     height: 20px;
     #prezn_gift_2{
-      float: left;
-      width: 13px;
-      height: 10px;
-      background:url("../Photos/UzerPhoto/profile_icons.png") no-repeat 0px -34px;
+      .photos_arg(url("../Photos/UzerPhoto/profile_icons.png") no-repeat 0px -34px,13px,10px,0);
     }
   }
   #prezn_block_otp:hover{
@@ -264,8 +249,7 @@
     height: 91px;
   }
   .frend_icon{
-    display: block;
-    float: left;
+    .block_left;
     width: (@size_-100 - 40);
     height: 90px;
     .naime_portren{
@@ -285,67 +269,31 @@
       text-decoration: underline;
     }
     #portret-1{
-      display: block;
-      width: (@size_-100 - 50);
-      height: (@size_-100 - 50);
-      background: url("../Photos/UzerPhoto/Photo/photo-1.jpg")no-repeat;
-      margin: 6px;
+      .photos_arg(url("../Photos/UzerPhoto/Photo/photo-1.jpg")no-repeat,(@size_-100 - 50),(@size_-100 - 50),6px);
     }
     #portret-2{
-      display: block;
-      width: (@size_-100 - 50);
-      height: (@size_-100 - 50);
-      background: url("../Photos/UzerPhoto/Photo/photo-2.jpg")no-repeat;
-      margin: 6px;
+      .photos_arg(url("../Photos/UzerPhoto/Photo/photo-2.jpg")no-repeat,(@size_-100 - 50),(@size_-100 - 50),6px);
     }
     #portret-3{
-      display: block;
-      width: (@size_-100 - 50);
-      height: (@size_-100 - 50);
-      background: url("../Photos/UzerPhoto/Photo/photo-3.jpg")no-repeat;
-      margin: 6px;
+      .photos_arg(url("../Photos/UzerPhoto/Photo/photo-3.jpg")no-repeat,(@size_-100 - 50),(@size_-100 - 50),6px);
     }
     #portret-4{
-      display: block;
-      width: (@size_-100 - 50);
-      height: (@size_-100 - 50);
-      background: url("../Photos/UzerPhoto/Photo/photo-4.jpg")no-repeat;
-      margin: 6px;
+      .photos_arg(url("../Photos/UzerPhoto/Photo/photo-4.jpg")no-repeat,(@size_-100 - 50),(@size_-100 - 50),6px);
     }
     #portret-5{
-      display: block;
-      width: (@size_-100 - 50);
-      height: (@size_-100 - 50);
-      background: url("../Photos/UzerPhoto/Photo/photo-5.jpg")no-repeat;
-      margin: 6px;
+      .photos_arg(url("../Photos/UzerPhoto/Photo/photo-5.jpg")no-repeat,(@size_-100 - 50),(@size_-100 - 50),6px);
     }
     #portret-6{
-      display: block;
-      width: (@size_-100 - 50);
-      height: (@size_-100 - 50);
-      background: url("../Photos/UzerPhoto/Photo/photo-6.jpg")no-repeat;
-      margin: 6px;
+      .photos_arg(url("../Photos/UzerPhoto/Photo/photo-6.jpg")no-repeat,(@size_-100 - 50),(@size_-100 - 50),6px);
     }
     #portret-7{
-      display: block;
-      width: (@size_-100 - 50);
-      height: (@size_-100 - 50);
-      background: url("../Photos/UzerPhoto/Photo/photo-7.jpg")no-repeat;
-      margin: 6px;
+      .photos_arg(url("../Photos/UzerPhoto/Photo/photo-7.jpg")no-repeat,(@size_-100 - 50),(@size_-100 - 50),6px);
     }
     #portret-8{
-      display: block;
-      width: (@size_-100 - 50);
-      height: (@size_-100 - 50);
-      background: url("../Photos/UzerPhoto/Photo/photo-8.jpg")no-repeat;
-      margin: 6px;
+      .photos_arg(url("../Photos/UzerPhoto/Photo/photo-8.jpg")no-repeat,(@size_-100 - 50),(@size_-100 - 50),6px);
     }
     #portret-9{
-      display: block;
-      width: (@size_-100 - 50);
-      height: (@size_-100 - 50);
-      background: url("../Photos/UzerPhoto/Photo/photo-9.jpg")no-repeat;
-      margin: 6px;
+      .photos_arg(url("../Photos/UzerPhoto/Photo/photo-9.jpg")no-repeat,(@size_-100 - 50),(@size_-100 - 50),6px);
     }
   }
   .frend_wd:hover{
@@ -366,10 +314,9 @@
   width: (@size_-14 - 2);
   height: 251px;
   .albom_block{
-    display: block;
+    .block_left;
     width: (@size_-14 - 16);
     height: 113px;
-    float: left;
     margin: 6px;
     .nz_alb_block{
       display: block;
@@ -383,86 +330,58 @@
       background: rgba(179, 179, 179, 0.7);
     }
     .namb_foto{
-      display: block;
-      float: right;
+      .block_right;
       padding-right: 25px;
     }
     .foto_icon{
-      display: block;
-      float: right;
-      width: 13px;
-      height: 10px;
-      background:url("../Photos/UzerPhoto/profile_icons.png") no-repeat 0px 0px;
+      .photos_arg_right(url("../Photos/UzerPhoto/profile_icons.png") no-repeat 0px 0px,13px,10px,0);
     }
   }
   #albom_1{
-    display: block;
-    width: (@size_-14 - 16);
-    height: (@size_-50 - 37);
-    background: url("../Photos/UzerPhoto/alboms/albom-1.jpg") no-repeat;
-    background-size: contain;
+    .photos_arg(url("../Photos/UzerPhoto/alboms/albom-1.jpg") no-repeat,(@size_-14 - 16),(@size_-50 - 37),7px);
   }
   #albom_2{
-    display: block;
-    width: (@size_-14 - 16);
-    height: (@size_-50 - 37);
-    background: url("../Photos/UzerPhoto/alboms/albom-3.jpg") no-repeat;
-    background-size: contain;
+    .photos_arg(url("../Photos/UzerPhoto/alboms/albom-2.jpg") no-repeat,(@size_-14 - 16),(@size_-50 - 37),0px 7px);
   }
 }
 #interes_stranici{
   display: block;
   width: (@size_-14 - 2);
   height: 390px;
+  .photos_arg(@background,@width,@height,@margin){
+    .block_left;
+    width: (@width);
+    height: (@height);
+    background: (@background);
+    margin: (@margin);
+  }
   .block_news{
-    display: block;
-    float: left;
+    .block_left;
     width: (@size_-14 - 8);
     height:60px;
     margin: 5px;
     #news_st_1{
-      display: block;
-      float: left;
-      width: (@size_-100 - 50);
-      height: (@size_-100 - 50);
-      background: url("../Photos/UzerPhoto/st-news/icon-news-1.jpg") no-repeat;
+      .photos_arg(url("../Photos/UzerPhoto/st-news/icon-news-1.jpg") no-repeat,(@size_-100 - 50),(@size_-100 - 50),0);
       padding: 5px;
     }
     #news_st_2{
-      display: block;
-      float: left;
-      width: (@size_-100 - 50);
-      height: (@size_-100 - 50);
-      background: url("../Photos/UzerPhoto/st-news/icon-news-2.jpg") no-repeat;
+      .photos_arg(url("../Photos/UzerPhoto/st-news/icon-news-2.jpg") no-repeat,(@size_-100 - 50),(@size_-100 - 50),0);
       padding: 5px;
     }
     #news_st_3{
-      display: block;
-      float: left;
-      width: (@size_-100 - 50);
-      height: (@size_-100 - 50);
-      background: url("../Photos/UzerPhoto/st-news/icon-news-3.jpg") no-repeat;
+      .photos_arg(url("../Photos/UzerPhoto/st-news/icon-news-3.jpg") no-repeat,(@size_-100 - 50),(@size_-100 - 50),0);
       padding: 5px;
     }
     #news_st_4{
-      display: block;
-      float: left;
-      width: (@size_-100 - 50);
-      height: (@size_-100 - 50);
-      background: url("../Photos/UzerPhoto/st-news/icon-news-4.jpg") no-repeat;
+      .photos_arg(url("../Photos/UzerPhoto/st-news/icon-news-4.jpg") no-repeat,(@size_-100 - 50),(@size_-100 - 50),0);
       padding: 5px;
     }
     #news_st_5{
-      display: block;
-      float: left;
-      width: (@size_-100 - 50);
-      height: (@size_-100 - 50);
-      background: url("../Photos/UzerPhoto/st-news/icon-news-5.jpg") no-repeat;
+      .photos_arg(url("../Photos/UzerPhoto/st-news/icon-news-5.jpg") no-repeat,(@size_-100 - 50),(@size_-100 - 50),0);
       padding: 5px;
     }
     .obtic{
-      display: block;
-      float: left;
+      .block_left;
       width: (@size_-100 + 15);
       height: 20px;
     }
@@ -479,13 +398,11 @@
   width: (@size_-14 - 1);
   height: 350px;
   .video_block{
-    display: block;
-    float: right;
+    .block_right;
     width: (@size_-14 - 2);
     height: 104px;
     .cn_play{
-      display: block;
-      float: left;
+      .block_left;
       width: 35px;
       height: 35px;
       margin: 32px 75px;
@@ -493,20 +410,14 @@
       border: 0.5px solid #646464;
       border-radius: 5px;
       .icon_play{
-        display: block;
-        float: left;
-        width: 14px;
-        height: 18px;
-        margin: 9px 12px;
-        background: url("../Photos/UzerPhoto/Video/video_play.png");
+        .photos_arg(url("../Photos/UzerPhoto/Video/video_play.png"),14px,18px,9px 12px);
       }
     }
     .cn_play:hover{
       background: rgba(179, 179, 179, 0.7);
     }
     .taim_dispy{
-      display: block;
-      float: right;
+      .block_right;
       padding: 2px;
       width: auto;
       height: 12px;
@@ -516,36 +427,26 @@
     }
   }
   #ikon_vidio_1{
-    width: (@size_-14 - 2);
-    height: (@size_-100 + 4);
-    background: url("../Photos/UzerPhoto/Video/Video--1.jpg") no-repeat;
-    background-size: contain;
+    .photos_arg(url("../Photos/UzerPhoto/Video/Video--1.jpg") no-repeat,(@size_-14 - 2),(@size_-100 + 4),0);
   }
   #ikon_vidio_2{
-    width: (@size_-14 - 2);
-    height: (@size_-100 + 4);
-    background: url("../Photos/UzerPhoto/Video/Video--2.jpg") no-repeat;
-    background-size: contain;
+    .photos_arg(url("../Photos/UzerPhoto/Video/Video--2.jpg") no-repeat,(@size_-14 - 2),(@size_-100 + 4),0);
   }
   .naime_video{
-    display: block;
-    float: left;
+    .block_left;
     width: (@size_-14 - 2);
     margin: 5px 0px;
     .obtic-2{
-      display: block;
-      float: left;
+      .block_left;
     }
     .obtic-2:hover{
       text-decoration: underline;
     }
     .text_pod_vid{
-      display: block;
-      float: left;
+      .block_left;
       font-size: 9px;
       .obtic-3{
-        display: block;
-        float: right;
+        .block_right;
       }
       .obtic-3:hover{
         text-decoration: underline;
@@ -558,22 +459,18 @@
   width: (@size_-14 - 1);
   height: 150px;
   .aud_zin{
-    display: block;
-    float: left;
+    .block_left;
     width: (@size_-14 - 2);
     height: 22px;
     margin: 5px 0px;
     .icon_play_aud{
-      display: block;
-      float: left;
-      margin: 2px 5px;
-      width: 16px;
-      height: 16px;
-      background: url("../Photos/UzerPhoto/audio/playpause.gif") no-repeat 0px 0px;
+      .photos_arg(url("../Photos/UzerPhoto/audio/playpause.gif") no-repeat 0px 0px,16px,16px,2px 5px);
+    }
+    .icon_play_aud:active{
+      .photos_arg(url("../Photos/UzerPhoto/audio/playpause.gif") no-repeat 0px -18px,16px,16px,2px 5px);
     }
     .naime_audio{
-      display: block;
-      float: left;
+      .block_left;
       width: (@size_-50 - 30);
       height: 20px;
       font-weight: 400;
@@ -586,8 +483,7 @@
       text-decoration: underline;
     }
     .taim_audio{
-      display: block;
-      float: right;
+      .block_right;
       height: 20px;
       padding: 3px;
       color: black;
